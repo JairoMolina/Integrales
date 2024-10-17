@@ -17,7 +17,7 @@ public class CentroDeMasaCentroides {
                     .setVariable("x", x);
             return expression.evaluate();
         } catch (Exception e) {
-            System.err.println("Error al evaluar la función: " + e.getMessage());
+            System.err.println("Error al evaluar la funcion: " + e.getMessage());
             return Double.NaN;
         }
     }

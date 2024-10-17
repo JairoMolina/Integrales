@@ -10,7 +10,7 @@ public class IntegralDeDerivadasParciales {
         ExprEvaluator eval = new ExprEvaluator();
 
         try {
-            System.out.print("Ingresa la función en términos de X y Y: ");
+            System.out.print("Ingresa la funcion en términos de X y Y: ");
             String expresion = scanner.nextLine();
 
             try {
